@@ -15,6 +15,8 @@
 		EA66773A22B78993006523E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA66773822B78993006523E5 /* LaunchScreen.storyboard */; };
 		EA66774522B78993006523E5 /* StoryboardPreviewsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA66774422B78993006523E5 /* StoryboardPreviewsTests.swift */; };
 		EA66775022B78993006523E5 /* StoryboardPreviewsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA66774F22B78993006523E5 /* StoryboardPreviewsUITests.swift */; };
+		EA66777222B79087006523E5 /* UIViewController+AK.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA66777122B79087006523E5 /* UIViewController+AK.swift */; };
+		EA66777422B791E0006523E5 /* NSObject+Apply.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA66777322B791E0006523E5 /* NSObject+Apply.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		EA66774B22B78993006523E5 /* StoryboardPreviewsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StoryboardPreviewsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA66774F22B78993006523E5 /* StoryboardPreviewsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardPreviewsUITests.swift; sourceTree = "<group>"; };
 		EA66775122B78993006523E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA66777122B79087006523E5 /* UIViewController+AK.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+AK.swift"; sourceTree = "<group>"; };
+		EA66777322B791E0006523E5 /* NSObject+Apply.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+Apply.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,7 @@
 			children = (
 				EA66776D22B78F9B006523E5 /* SwiftUI */,
 				EA66776C22B78F7C006523E5 /* UIKit */,
+				EA66777022B7905B006523E5 /* Extensions */,
 				EA66772C22B78991006523E5 /* StoryboardPreviews */,
 				EA66776F22B79020006523E5 /* Config */,
 				EA66776E22B78FD2006523E5 /* Resources */,
@@ -166,6 +171,15 @@
 				EA66773B22B78993006523E5 /* Info.plist */,
 			);
 			path = Config;
+			sourceTree = "<group>";
+		};
+		EA66777022B7905B006523E5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				EA66777122B79087006523E5 /* UIViewController+AK.swift */,
+				EA66777322B791E0006523E5 /* NSObject+Apply.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -299,9 +313,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA66777222B79087006523E5 /* UIViewController+AK.swift in Sources */,
 				EA66772E22B78991006523E5 /* AppDelegate.swift in Sources */,
 				EA66773022B78991006523E5 /* SceneDelegate.swift in Sources */,
 				EA66773222B78991006523E5 /* ContentView.swift in Sources */,
+				EA66777422B791E0006523E5 /* NSObject+Apply.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
