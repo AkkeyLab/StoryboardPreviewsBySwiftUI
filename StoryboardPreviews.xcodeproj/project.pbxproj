@@ -17,6 +17,20 @@
 		EA66775022B78993006523E5 /* StoryboardPreviewsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA66774F22B78993006523E5 /* StoryboardPreviewsUITests.swift */; };
 		EA66777222B79087006523E5 /* UIViewController+AK.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA66777122B79087006523E5 /* UIViewController+AK.swift */; };
 		EA66777422B791E0006523E5 /* NSObject+Apply.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA66777322B791E0006523E5 /* NSObject+Apply.swift */; };
+		EA66777722B7934E006523E5 /* UserDetailBasicInfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA66777522B7934D006523E5 /* UserDetailBasicInfoCell.xib */; };
+		EA66777822B7934E006523E5 /* UserDetailBasicInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA66777622B7934E006523E5 /* UserDetailBasicInfoCell.swift */; };
+		EA66777A22B7944C006523E5 /* DeviceWidthSizeType.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA66777922B7944C006523E5 /* DeviceWidthSizeType.swift */; };
+		EA66777D22B7977C006523E5 /* UserDetailImageCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA66777B22B7977C006523E5 /* UserDetailImageCircleView.swift */; };
+		EA66777E22B7977C006523E5 /* UserDetailImageCircleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA66777C22B7977C006523E5 /* UserDetailImageCircleView.xib */; };
+		EA66778022B799F0006523E5 /* UIView+AutoLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA66777F22B799F0006523E5 /* UIView+AutoLayout.swift */; };
+		EA66778222B79A47006523E5 /* ExtensionBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA66778122B79A47006523E5 /* ExtensionBase.swift */; };
+		EA66778422B79CAE006523E5 /* Collection+AK.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA66778322B79CAE006523E5 /* Collection+AK.swift */; };
+		EA66778622B79D97006523E5 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA66778522B79D97006523E5 /* User.swift */; };
+		EA66778822B7A1C2006523E5 /* UIView+AK.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA66778722B7A1C2006523E5 /* UIView+AK.swift */; };
+		EA66778A22B7A231006523E5 /* String+url.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA66778922B7A231006523E5 /* String+url.swift */; };
+		EA66778C22B7A863006523E5 /* UserDetailBasicInfoCellPreviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA66778B22B7A863006523E5 /* UserDetailBasicInfoCellPreviews.swift */; };
+		EAC2A5A222B7B928009DF062 /* UIImage+url.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC2A5A122B7B928009DF062 /* UIImage+url.swift */; };
+		EAC2A5A422B7C586009DF062 /* Date+AK.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC2A5A322B7C586009DF062 /* Date+AK.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +67,20 @@
 		EA66775122B78993006523E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EA66777122B79087006523E5 /* UIViewController+AK.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+AK.swift"; sourceTree = "<group>"; };
 		EA66777322B791E0006523E5 /* NSObject+Apply.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+Apply.swift"; sourceTree = "<group>"; };
+		EA66777522B7934D006523E5 /* UserDetailBasicInfoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserDetailBasicInfoCell.xib; sourceTree = "<group>"; };
+		EA66777622B7934E006523E5 /* UserDetailBasicInfoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDetailBasicInfoCell.swift; sourceTree = "<group>"; };
+		EA66777922B7944C006523E5 /* DeviceWidthSizeType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceWidthSizeType.swift; sourceTree = "<group>"; };
+		EA66777B22B7977C006523E5 /* UserDetailImageCircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDetailImageCircleView.swift; sourceTree = "<group>"; };
+		EA66777C22B7977C006523E5 /* UserDetailImageCircleView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserDetailImageCircleView.xib; sourceTree = "<group>"; };
+		EA66777F22B799F0006523E5 /* UIView+AutoLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+AutoLayout.swift"; sourceTree = "<group>"; };
+		EA66778122B79A47006523E5 /* ExtensionBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionBase.swift; sourceTree = "<group>"; };
+		EA66778322B79CAE006523E5 /* Collection+AK.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Collection+AK.swift"; sourceTree = "<group>"; };
+		EA66778522B79D97006523E5 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		EA66778722B7A1C2006523E5 /* UIView+AK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+AK.swift"; sourceTree = "<group>"; };
+		EA66778922B7A231006523E5 /* String+url.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+url.swift"; sourceTree = "<group>"; };
+		EA66778B22B7A863006523E5 /* UserDetailBasicInfoCellPreviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailBasicInfoCellPreviews.swift; sourceTree = "<group>"; };
+		EAC2A5A122B7B928009DF062 /* UIImage+url.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+url.swift"; sourceTree = "<group>"; };
+		EAC2A5A322B7C586009DF062 /* Date+AK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+AK.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,9 +113,9 @@
 			children = (
 				EA66776D22B78F9B006523E5 /* SwiftUI */,
 				EA66776C22B78F7C006523E5 /* UIKit */,
+				EAC2A5A522B7C6C5009DF062 /* Entity */,
 				EA66777022B7905B006523E5 /* Extensions */,
 				EA66772C22B78991006523E5 /* StoryboardPreviews */,
-				EA66776F22B79020006523E5 /* Config */,
 				EA66776E22B78FD2006523E5 /* Resources */,
 				EA66774322B78993006523E5 /* StoryboardPreviewsTests */,
 				EA66774E22B78993006523E5 /* StoryboardPreviewsUITests */,
@@ -108,6 +136,7 @@
 		EA66772C22B78991006523E5 /* StoryboardPreviews */ = {
 			isa = PBXGroup;
 			children = (
+				EA66773B22B78993006523E5 /* Info.plist */,
 				EA66773522B78993006523E5 /* Preview Content */,
 			);
 			path = StoryboardPreviews;
@@ -142,8 +171,12 @@
 		EA66776C22B78F7C006523E5 /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
-				EA66772D22B78991006523E5 /* AppDelegate.swift */,
-				EA66773822B78993006523E5 /* LaunchScreen.storyboard */,
+				EAFCB80922B7CCEC00573C98 /* Default */,
+				EA66777622B7934E006523E5 /* UserDetailBasicInfoCell.swift */,
+				EA66777522B7934D006523E5 /* UserDetailBasicInfoCell.xib */,
+				EA66777B22B7977C006523E5 /* UserDetailImageCircleView.swift */,
+				EA66777C22B7977C006523E5 /* UserDetailImageCircleView.xib */,
+				EA66777922B7944C006523E5 /* DeviceWidthSizeType.swift */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -153,6 +186,7 @@
 			children = (
 				EA66772F22B78991006523E5 /* SceneDelegate.swift */,
 				EA66773122B78991006523E5 /* ContentView.swift */,
+				EA66778B22B7A863006523E5 /* UserDetailBasicInfoCellPreviews.swift */,
 			);
 			path = SwiftUI;
 			sourceTree = "<group>";
@@ -165,21 +199,37 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		EA66776F22B79020006523E5 /* Config */ = {
-			isa = PBXGroup;
-			children = (
-				EA66773B22B78993006523E5 /* Info.plist */,
-			);
-			path = Config;
-			sourceTree = "<group>";
-		};
 		EA66777022B7905B006523E5 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				EA66778122B79A47006523E5 /* ExtensionBase.swift */,
+				EA66778922B7A231006523E5 /* String+url.swift */,
+				EA66778322B79CAE006523E5 /* Collection+AK.swift */,
 				EA66777122B79087006523E5 /* UIViewController+AK.swift */,
 				EA66777322B791E0006523E5 /* NSObject+Apply.swift */,
+				EA66777F22B799F0006523E5 /* UIView+AutoLayout.swift */,
+				EA66778722B7A1C2006523E5 /* UIView+AK.swift */,
+				EAC2A5A122B7B928009DF062 /* UIImage+url.swift */,
+				EAC2A5A322B7C586009DF062 /* Date+AK.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		EAC2A5A522B7C6C5009DF062 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				EA66778522B79D97006523E5 /* User.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		EAFCB80922B7CCEC00573C98 /* Default */ = {
+			isa = PBXGroup;
+			children = (
+				EA66772D22B78991006523E5 /* AppDelegate.swift */,
+				EA66773822B78993006523E5 /* LaunchScreen.storyboard */,
+			);
+			path = Default;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -286,7 +336,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA66777E22B7977C006523E5 /* UserDetailImageCircleView.xib in Resources */,
 				EA66773A22B78993006523E5 /* LaunchScreen.storyboard in Resources */,
+				EA66777722B7934E006523E5 /* UserDetailBasicInfoCell.xib in Resources */,
 				EA66773722B78993006523E5 /* Preview Assets.xcassets in Resources */,
 				EA66773422B78993006523E5 /* Assets.xcassets in Resources */,
 			);
@@ -313,8 +365,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA66778222B79A47006523E5 /* ExtensionBase.swift in Sources */,
 				EA66777222B79087006523E5 /* UIViewController+AK.swift in Sources */,
+				EA66778022B799F0006523E5 /* UIView+AutoLayout.swift in Sources */,
+				EA66777822B7934E006523E5 /* UserDetailBasicInfoCell.swift in Sources */,
 				EA66772E22B78991006523E5 /* AppDelegate.swift in Sources */,
+				EAC2A5A422B7C586009DF062 /* Date+AK.swift in Sources */,
+				EA66778C22B7A863006523E5 /* UserDetailBasicInfoCellPreviews.swift in Sources */,
+				EA66777A22B7944C006523E5 /* DeviceWidthSizeType.swift in Sources */,
+				EA66778A22B7A231006523E5 /* String+url.swift in Sources */,
+				EA66777D22B7977C006523E5 /* UserDetailImageCircleView.swift in Sources */,
+				EA66778822B7A1C2006523E5 /* UIView+AK.swift in Sources */,
+				EA66778422B79CAE006523E5 /* Collection+AK.swift in Sources */,
+				EAC2A5A222B7B928009DF062 /* UIImage+url.swift in Sources */,
+				EA66778622B79D97006523E5 /* User.swift in Sources */,
 				EA66773022B78991006523E5 /* SceneDelegate.swift in Sources */,
 				EA66773222B78991006523E5 /* ContentView.swift in Sources */,
 				EA66777422B791E0006523E5 /* NSObject+Apply.swift in Sources */,

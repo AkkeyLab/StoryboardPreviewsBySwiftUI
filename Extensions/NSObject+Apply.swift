@@ -1,18 +1,18 @@
 //
 //  NSObject+Apply.swift
-//  AkkeyTV
+//  StoryboardPreviews
 //
-//  Created by AKIO on 2018/12/16.
-//  Copyright © 2018 AKIO. All rights reserved.
+//  Created by AKIO on 2019/06/17.
+//  Copyright © 2019 AKIO. All rights reserved.
 //
 
 import Foundation
 
-public protocol Appliable {}
+protocol Appliable {}
 
 extension Appliable {
     @discardableResult
-    public func apply(closure: (_ this: Self) -> Void) -> Self {
+    func apply(closure: (_ this: Self) -> Void) -> Self {
         closure(self)
         return self
     }
