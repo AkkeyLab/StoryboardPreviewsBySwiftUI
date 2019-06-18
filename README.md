@@ -51,6 +51,13 @@ extension UserDetailBasicInfoCell: UIViewRepresentable {
 #endif
 ```
 
+# Let's try!
+There is a layout bug in this sample. Fix bugs quickly using this review feature!
+
+Before | After
+---- | ----
+<img src="png/before.png" width="320"/> | <img src="png/after.png" width="320"/>
+
 # Problem
 When supporting iOS 13 or less, the target version needs to be iOS 13 or more when preview is executed.
 
