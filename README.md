@@ -51,5 +51,12 @@ extension UserDetailBasicInfoCell: UIViewRepresentable {
 #endif
 ```
 
+# Problem
+When supporting iOS 13 or less, the target version needs to be iOS 13 or more when preview is executed.
+
+<div align="center">
+<img src="png/problem.png" alt="image" title="header">
+</div>
+
 # Information
 This is using the actual product. Some images have been replaced with dummy data.
