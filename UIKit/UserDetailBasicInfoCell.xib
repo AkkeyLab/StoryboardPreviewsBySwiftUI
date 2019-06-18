@@ -46,8 +46,9 @@
                                                             </view>
                                                         </subviews>
                                                         <constraints>
-                                                            <constraint firstAttribute="trailing" secondItem="wYx-Pi-kCH" secondAttribute="trailing" constant="4" id="IJ2-uL-qFF"/>
+                                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="wYx-Pi-kCH" secondAttribute="trailing" constant="4" id="IJ2-uL-qFF"/>
                                                             <constraint firstItem="wYx-Pi-kCH" firstAttribute="leading" secondItem="Ykr-K7-DfU" secondAttribute="leading" constant="4" id="LAT-UL-ljj"/>
+                                                            <constraint firstAttribute="width" priority="250" constant="21" id="cx6-Gy-z4t"/>
                                                             <constraint firstItem="wYx-Pi-kCH" firstAttribute="centerY" secondItem="Ykr-K7-DfU" secondAttribute="centerY" id="wS3-mn-fVO"/>
                                                         </constraints>
                                                     </view>
