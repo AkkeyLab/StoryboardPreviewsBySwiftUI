@@ -1,4 +1,6 @@
-![image](png/header.png)
+<div align="center">
+<img src="png/header.png" alt="image" title="header">
+</div>
 
 # Sample of Preview function by SwiftUI
 Introduce how to make the Storyboard file and Xib file correspond to the preview function by SwiftUI.  
@@ -48,3 +50,6 @@ extension UserDetailBasicInfoCell: UIViewRepresentable {
 }
 #endif
 ```
+
+# Information
+This is using the actual product. Some images have been replaced with dummy data.
