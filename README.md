@@ -7,6 +7,8 @@ Introduce how to make the Storyboard file and Xib file correspond to the preview
 You can use SwiftUI preview feature while continuing to support iOS 13 and below!!
 
 # Usage
+In order to try the preview feature, you need to select a preview-only target. That's because the target version needs to be iOS 13 or more for the preview feature to work.  
+The swift file described for previews is linked to "preview-only target" only.  
 If you change the parameter for UIView or UIViewController inside `updateUIView` method, it will be reflected in the preview.
 
 <div align="center">
@@ -57,13 +59,6 @@ There is a layout bug in this sample. Fix bugs quickly using this review feature
 Before | After
 ---- | ----
 <img src="png/before.png" width="320"/> | <img src="png/after.png" width="320"/>
-
-# Problem
-When supporting iOS 13 or less, the target version needs to be iOS 13 or more when preview is executed.
-
-<div align="center">
-<img src="png/problem.png" alt="image" title="header">
-</div>
 
 # Information
 This is using the actual product. Some images have been replaced with dummy data.
