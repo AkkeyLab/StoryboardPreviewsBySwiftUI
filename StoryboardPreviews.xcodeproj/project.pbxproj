@@ -103,7 +103,6 @@
 		EAC2A5A122B7B928009DF062 /* UIImage+url.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+url.swift"; sourceTree = "<group>"; };
 		EAC2A5A322B7C586009DF062 /* Date+AK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+AK.swift"; sourceTree = "<group>"; };
 		EAD8F81E22B9C7B50005776A /* Previews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Previews.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		EAD8F81F22B9C7B50005776A /* Previews-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Previews-Info.plist"; path = "/Users/akkey/Development/Xcode/StoryboardPreviews/Previews-Info.plist"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,7 +167,6 @@
 			isa = PBXGroup;
 			children = (
 				EA66773B22B78993006523E5 /* Info.plist */,
-				EAD8F81F22B9C7B50005776A /* Previews-Info.plist */,
 				EA66773522B78993006523E5 /* Preview Content */,
 			);
 			path = StoryboardPreviews;
@@ -759,7 +757,7 @@
 				DEVELOPMENT_ASSET_PATHS = "StoryboardPreviews/Preview\\ Content";
 				DEVELOPMENT_TEAM = Y6Y8U7YGDU;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "Previews-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/StoryboardPreviews/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -779,7 +777,7 @@
 				DEVELOPMENT_ASSET_PATHS = "StoryboardPreviews/Preview\\ Content";
 				DEVELOPMENT_TEAM = Y6Y8U7YGDU;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "Previews-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/StoryboardPreviews/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
