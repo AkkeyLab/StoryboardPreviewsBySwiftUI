@@ -62,3 +62,6 @@ Before | After
 
 # Information
 This is using the actual product. Some images have been replaced with dummy data.
+
+# License
+RxScreenProtectKit is available under the MIT license. See the LICENSE file for more info.
